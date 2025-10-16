@@ -1,0 +1,42 @@
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+.env
+.env.*
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# ROS 2 / Colcon
+build/
+install/
+log/
+.colcon*
+
+# ROS bag files (keep curated samples under resources/datasets)
+*.db3
+*.bag
+
+# Node / Frontend
+node_modules/
+*.tsbuildinfo
+
+# Docker
+*.pid
+*.sock
+
+# Misc
+coverage/
+.mypy_cache/
+pytest_cache/
+
+# Local resources
+resources/datasets/raw/
