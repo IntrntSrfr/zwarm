@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'zwarm_camera_node = zwarm_camera.camera_node:main'
         ],
     },
 )
