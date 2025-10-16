@@ -1,0 +1,4 @@
+string auction_id
+string winner_drone_id
+bool approved_by_operator
+string reason

@@ -1,0 +1,5 @@
+string mission_id
+string target_drone_id
+geometry_msgs/Point waypoint
+float32 loiter_radius
+float32 timeout_sec
