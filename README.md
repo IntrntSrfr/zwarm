@@ -21,6 +21,8 @@ plans/
   plan-dashboard.md          # Operator dashboard, backend bridge, and auction UX
   plan-swarm-coordination.md # Mission handoffs, drone auction logic, and multi-drone behavior
   plan-operations.md         # Dev tools, provisioning scripts, and testing setup
+docs/
+  architecture.md            # End-to-end component diagrams and data flows
 packages/
   common/
     zwarm_msgs/              # Shared ROS 2 interfaces used by edge, backend, and auction nodes
